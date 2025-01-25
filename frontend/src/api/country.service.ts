@@ -4,7 +4,7 @@ import { CountryInfoResponse, CountryResponse, StateResponse } from "../../../ba
 class Country_Service {
     private baseURL: string;
 
-    constructor(baseURL: string = "http://localhost:3000/api") {
+    constructor(baseURL: string = "https://country-info-app-ts.onrender.com/api") {
         this.baseURL = baseURL;
     }
 

@@ -7,7 +7,7 @@ type ContextProviderProps = {
 };
 
 // Base URL
-const baseUrl = "http://localhost:3000/api";
+const baseUrl = "https://country-info-app-ts.onrender.com/api";
 
 // Define the AppContext type
 export interface AppContextType {
